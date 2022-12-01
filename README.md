@@ -7,6 +7,7 @@ Topics covered in these projects include data structures (e.g. arrrays, linked l
 
 | 0x00. Python - Hello World |
 | 0x01. Python - if/else, loops, functions |
+| 0x02. Python - import modules
 
 ## Author
 
