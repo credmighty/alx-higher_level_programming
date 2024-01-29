@@ -5,8 +5,9 @@
 class Rectangle:
     """Represent a Rectangle"""
     def __init__(self, width=0, height=0):
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
+
 
     def width(self, value):
         if not isinstance(value, int):
@@ -14,7 +15,8 @@ class Rectangle:
         elif value < 0:
             raise ValueError("width must be >= 0")
         else:
-            self.width = value
+            self.__width = value
+
 
     def width(self):
         return self.__width
@@ -25,7 +27,7 @@ class Rectangle:
         elif value < 0:
             raise ValueError("width must be >= 0")
         else:
-            self.height = value
+            self.__height = value
 
-    def width(self):
-        return self.__width
+    def height(self):
+        return self.__height
