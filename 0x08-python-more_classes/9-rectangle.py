@@ -80,4 +80,4 @@ class Rectangle:
     def square(cls, size=0):
         """creates new Rectangle with equal width and height."""
 
-        return cls(size, size)
+        return (cls(size, size))
