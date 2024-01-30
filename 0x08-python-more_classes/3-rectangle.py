@@ -49,6 +49,5 @@ class Rectangle:
         else:
             for i in range(self.__height):
                 for j in range(self.__height - 1):
-                    print('#' * self.__width) 
+                    print('#' * self.__width)
                 return '#' * self.__width
-                
