@@ -25,10 +25,10 @@ def matrix_mul(m_a, m_b):
         raise ValueError("m_b can't be empty")
 
     if any(any(type(j) != int and type(j) != float for j in i) for i in m_a):
-        raise TypeError('m_a contain only integers or floats')
+        raise TypeError('m_a should contain only integers or floats')
 
     if any(any(type(j) != int and type(j) != float for j in i) for i in m_b):
-        raise TypeError('m_b contain only integers or floats')
+        raise TypeError('m_b should contain only integers or floats')
 
     l_a = len(m_a[0])
     if any(len(row) != l_a for row in m_a):
