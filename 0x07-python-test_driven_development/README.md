@@ -371,7 +371,7 @@ File: tests/6-max_integer_test.py
 #advanced
 Write a function that multiplies 2 matrices:
 
-Read: Matrix multiplication - only Matrix product (two matrices)
+Read: Matrix multiplication - only Matrix product (two matrices) <https://en.wikipedia.org/wiki/Matrix_multiplication>
 
 Prototype: def matrix_mul(m_a, m_b):
 
