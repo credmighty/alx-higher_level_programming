@@ -43,12 +43,12 @@ All your answers should be only one line in a file. No space before or after the
 Resources
 Read or watch:
 
-9.10. Objects and values
-9.11. Aliasing
-Immutable vs mutable types
-Mutation (Only this chapter)
-9.12. Cloning lists
-Python tuples: immutable but potentially changing
+9.10. Objects and values <http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values>
+9.11. Aliasing <http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing>
+Immutable vs mutable types <https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types>
+Mutation (Only this chapter) <https://www.composingprograms.com/pages/24-mutable-data.html>
+9.12. Cloning lists <http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists>
+Python tuples: immutable but potentially changing <http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html>
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
