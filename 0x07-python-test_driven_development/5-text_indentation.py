@@ -3,12 +3,26 @@
 
 
 def text_indentation(text):
+    """print text with two new line after specified characters
+    Args:
+         text (string): the text to print
+    Raises:
+         TypeError: if text is not a string
+    """
+
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    sym = text.replace('.', '.\n\n')
-    sym = sym.replace('?', '?\n\n')
-    sym = sym.replace(':', ':\n\n')
-    sym1 = sym.split('\n')
-    for line in range(len(sym1)):
-        print("{}".format(sym1[line].strip()),
-              end=("" if (line == (len(period1) - 1)) else '\n'))
+    c = 0
+    while c < len(text) and text[c] == ' ':
+        c += 1
+
+    while c < len(text):
+        print(text[c], end="")
+        if text[c] == "\n" or text[c] in ".?:":
+            if text[c] in ".?:":
+                print("\n")
+            c += 1
+            while c < len(text) and text[c] == ' ':
+                c += 1
+            continue
+        c += 1
