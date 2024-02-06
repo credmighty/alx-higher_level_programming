@@ -14,7 +14,7 @@ class Square(Rectangle):
 
     def area(self):
         """area methood to be implemented"""
-        return self.__size * self.__size
+        return self.__size ** 2
 
     def __str__(self):
         """magic str return, the square desc: [Square] <width>/<height>"""
