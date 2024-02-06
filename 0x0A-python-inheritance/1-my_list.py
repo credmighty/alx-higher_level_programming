@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""class inheritor project"""
 
 
 class MyList(list):

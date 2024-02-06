@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""class inheritor project"""
 
 
 def lookup(obj):

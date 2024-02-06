@@ -1,4 +1,5 @@
 #!/usr/bin/python2
+"""class inheritor project"""
 
 
 def add_attribute(obj, at, value):
