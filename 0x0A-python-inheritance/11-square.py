@@ -18,4 +18,4 @@ class Square(Rectangle):
 
     def __str__(self):
         """magic str return, the square desc: [Square] <width>/<height>"""
-        return "[Square] {}/{}".format(self.__size)
+        return "[Square] {0}/{0}".format(self.__size)
