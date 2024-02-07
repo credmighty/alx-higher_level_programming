@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""project I/0 for 0x0B"""
 
 
 def read_file(filename=""):
