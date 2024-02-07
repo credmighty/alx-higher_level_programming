@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Defines a text file insertion function."""
+"""project I/O for 0x0B"""
 
 
 def append_after(filename="", search_string="", new_string=""):
