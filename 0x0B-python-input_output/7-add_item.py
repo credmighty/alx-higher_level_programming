@@ -10,5 +10,5 @@ load_from_json_file = \
 filename = 'add_item.json'
 r = []
 if os.path.exists(filename):
-    r = load(filename)
-save(r + argv[1:], filename)
+    r = load_to_json_file(filename)
+save_from_json_file(r + argv[1:], filename)
