@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""Add all arguments to a Python list and save them to a file."""
-import sys
+"""ADDING ITEMS"""
+from sys import argv
+import os.path
 
-save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
-load_from_json_file = \
-    __import__('6-load_from_json_file').load_from_json_file
+save = __import__('7-save_to_json_file').save_to_json_file
+load = __import__('8-load_from_json_file').load_from_json_file
 
 
 filename = 'add_item.json'
-r = []
+res = []
 if os.path.exists(filename):
-    r = load_to_json_file(filename)
-save_from_json_file(r + argv[1:], filename)
+    res = load(filename)
+save(res + argv[1:], filename)
