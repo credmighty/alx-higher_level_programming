@@ -47,13 +47,16 @@ class Base:
         Args:
             list_objs (list): A list of inherited Base instances.
         """
+        temp = []
+        if list_objs is None or len(list_objs) == 0:
+            pass
+        else:
+            for i in list_objs:
+                temp.append(cls.to_dictionary(i))
+        x = cls.to_json_string(temp)
         filename = cls.__name__ + ".json"
-        with open(filename, "w") as jsonfile:
-            if list_objs is None:
-                jsonfile.write("[]")
-            else:
-                list_dicts = [o.to_dictionary() for o in list_objs]
-                jsonfile.write(Base.to_json_string(list_dicts))
+        with open(filename, "w", encoding='utf-8') as jsonfile:
+            jsonfile.write(x)
 
     @staticmethod
     def from_json_string(json_string):
@@ -65,7 +68,7 @@ class Base:
             If json_string is None or empty - an empty list.
             Otherwise - the Python list represented by json_string.
         """
-        if json_string is None or json_string == "[]":
+        if json_string is None or len(json_string) == 0:
             return []
         return json.loads(json_string)
 
