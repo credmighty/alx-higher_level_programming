@@ -15,8 +15,8 @@ class Square(Rectangle):
     def __str__(self):
         """by overriding the __str__ method"""
         return "[Square] ({}) {}/{} - {}".format(self.id,
-                                                       self.x, self.y,
-                                                       self.width)
+                                                 self.x, self.y,
+                                                 self.width)
 
     @property
     def size(self):
@@ -28,7 +28,7 @@ class Square(Rectangle):
         """width setter method"""
         self.width = value
         self.__height = value
- 
+
     def update(self, *args, **kwargs):
         """Update the class Square by adding the public method
         that assigns an argument to each attribute"""
@@ -64,4 +64,4 @@ class Square(Rectangle):
         temp['size'] = self.size
         temp['x'] = self.x
         temp['y'] = self.y
-        return temp      
+        return temp
