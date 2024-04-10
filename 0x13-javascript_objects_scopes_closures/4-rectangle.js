@@ -7,7 +7,7 @@ class Rectangle {
     }
   }
   print () {
-    let x ='';
+    let x = '';
     for (let a = 0; a < this.width; a++) {
       x += 'X';
     }
