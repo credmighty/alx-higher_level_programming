@@ -1,11 +1,12 @@
 #!/usr/bin/node
 class Rectangle {
   constructor (w, h) {
-    if (w > 0 && h > 0) {
+    if (h > 0 && w > 0) {
       this.width = w;
       this.height = h;
     }
   }
+
   print () {
     let x ='';
     for (let a = 0; a < this.width; a++) {
