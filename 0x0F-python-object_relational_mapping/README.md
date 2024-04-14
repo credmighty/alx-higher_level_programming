@@ -1,4 +1,5 @@
 0x0F. Python - Object-relational mapping
+========================================
 Python
 OOP
 SQL
@@ -13,11 +14,12 @@ Before you start…
 Please make sure your MySQL server is in 8.0 -> How to install MySQL 8.0 in Ubuntu 20.04
 
 Background Context
+------------------
 In this project, you will link two amazing worlds: Databases and Python!
 
-In the first part, you will use the module MySQLdb to connect to a MySQL database and execute your SQL queries.
+In the first part, you will use the module `MySQLdb` to connect to a MySQL database and execute your SQL queries.
 
-In the second part, you will use the module SQLAlchemy (don’t ask me how to pronounce it…) an Object Relational Mapper (ORM).
+In the second part, you will use the module `SQLAlchemy` (don’t ask me how to pronounce it…) an Object Relational Mapper (ORM).
 
 The biggest difference is: no more SQL queries! Indeed, the purpose of an ORM is to abstract the storage to the usage. With an ORM, your biggest concern will be “What can I do with my objects” and not “How this object is stored? where? when?”. You won’t write any SQL queries only Python code. Last thing, your code won’t be “storage type” dependent. You will be able to change your storage easily without re-writing your entire project.
 
@@ -51,7 +53,7 @@ MySQL service must be started before run it with sudo /etc/init.d/mysql start|re
 Resources
 Read or watch:
 
-Object-relational mappers <https://www.fullstackpython.com/object-relational-mappers-orms.html>
+- [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html "Object-relational mappers")
 mysqlclient/MySQLdb documentation (please don’t pay attention to _mysql) <https://mysqlclient.readthedocs.io/user_guide.html#installation>
 MySQLdb tutorial <https://www.mikusa.com/python-mysql-docs/index.html>
 SQLAlchemy tutorial
