@@ -13,8 +13,7 @@ if __name__ == "__main__":
         print("Error connecting to database: {}".format(e))
         sys.exit(1)
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE name LIKE '{}' \
-                ORDER BY id ASC".format(argv[4]))
+    cur.execute("SELECT * FROM states")
     for rows in cur.fetchall():
         if rows[1] == argv[4]: 
             print(rows)
