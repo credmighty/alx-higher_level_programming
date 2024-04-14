@@ -62,8 +62,8 @@ Read or watch:
 --------------
 
 - [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html "Object-relational mappers")
-- [mysqlclient/MySQLdb documentation (*please don’t pay attention to _mysql*)](https://mysqlclient.readthedocs.io/user_guide.html#installation)
-- [MySQLdb tutorial] (https://www.mikusa.com/python-mysql-docs/index.html)
+- [mysqlclient/MySQLdb documentation](https://mysqlclient.readthedocs.io/user_guide.html#installation) (*please don’t pay attention to _mysql*)
+- [MySQLdb tutorial](https://www.mikusa.com/python-mysql-docs/index.html)
 - SQLAlchemy tutorial
 - SQLAlchemy
 - mysqlclient/MySQLdb installation <https://github.com/PyMySQL/mysqlclient>
