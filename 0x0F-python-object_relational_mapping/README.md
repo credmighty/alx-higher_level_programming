@@ -46,15 +46,17 @@ The biggest difficulty with ORM is: The syntax!
 
 Indeed, all of them have the same type of syntax, but not always. Please read tutorials and don’t read the entire documentation before starting, just jump on it if you don’t get something.
 
+MySQL service must be started before run it with sudo /etc/init.d/mysql start|restart
+
 Resources
 Read or watch:
 
-Object-relational mappers
-mysqlclient/MySQLdb documentation (please don’t pay attention to _mysql)
-MySQLdb tutorial
+Object-relational mappers <https://www.fullstackpython.com/object-relational-mappers-orms.html>
+mysqlclient/MySQLdb documentation (please don’t pay attention to _mysql) <https://mysqlclient.readthedocs.io/user_guide.html#installation>
+MySQLdb tutorial <https://www.mikusa.com/python-mysql-docs/index.html>
 SQLAlchemy tutorial
 SQLAlchemy
-mysqlclient/MySQLdb
+mysqlclient/MySQLdb installation <https://github.com/PyMySQL/mysqlclient>
 Introduction to SQLAlchemy
 Flask SQLAlchemy
 10 common stumbling blocks for SQLAlchemy newbies
