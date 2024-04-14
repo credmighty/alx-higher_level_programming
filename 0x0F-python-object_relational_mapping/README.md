@@ -34,7 +34,7 @@ for row in query_rows:
 cur.close()
 conn.close()
 
-	```
+```
 With an ORM:
 
 ```
