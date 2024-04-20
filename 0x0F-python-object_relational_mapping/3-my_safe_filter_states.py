@@ -15,7 +15,7 @@ if __name__ == "__main__":
     cur = db.cursor()
     cur.execute("SELECT * FROM states")
     for rows in cur.fetchall():
-        if rows[1] == argv[4]: 
+        if rows[1] == argv[4]:
             print(rows)
 
     cur.close()

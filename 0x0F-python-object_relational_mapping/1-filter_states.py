@@ -13,10 +13,9 @@ if __name__ == "__main__":
         print("Error connecting to database: {}".format(e))
         sys.exit(1)
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE name LIKE 'N%' \
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' \
                 ORDER BY id ASC")
     for rows in cur.fetchall():
-        """if rows[1][0] == 'N':"""
         print(rows)
 
     cur.close()
