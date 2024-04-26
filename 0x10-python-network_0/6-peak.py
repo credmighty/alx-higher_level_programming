@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Technical interview preparation:"""
 
 def find_peak(list_of_integers):
     """ Python function to find peak number"""
