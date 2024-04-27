@@ -7,7 +7,7 @@ from sys import argv
 
 if __name__ == '__main__':
     query = requests.get(argv[1])
-    if status_code >= 400:
+    if query_.status_code >= 400:
         print('Error code: {}'.format(query_.status_code))
     else:
         print(query_.text)
