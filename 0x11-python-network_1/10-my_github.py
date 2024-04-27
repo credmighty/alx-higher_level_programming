@@ -10,7 +10,7 @@ from sys import argv
 if __name__ == '__main__':
     url = 'https://api.github.com/user'
     req = requests.get(url,
-		auth=(argv[1], argv[2]))
+                       auth=(argv[1], argv[2]))
     if req.status_code == 200:
         print(req.json().get('id'))
     else:
