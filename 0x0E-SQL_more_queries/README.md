@@ -170,7 +170,7 @@ $
 
 ```
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220203T073325Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1c869cf52460f590a5a8b8f024731b1ca0361fd2845c272b5ac11d80ec284581)
+![picture SQL SET](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220203T073325Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1c869cf52460f590a5a8b8f024731b1ca0361fd2845c272b5ac11d80ec284581)
 
 Quiz questions
 --------------
