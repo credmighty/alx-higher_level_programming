@@ -24,19 +24,19 @@ Resources
 
 **Read or watch**:
 
-- [What is JavaScript?](https://alx-intranet.hbtn.io/rltoken/NJ5XM_fzjlBKERHTkdF-uA "What is JavaScript?")
-- [Selector](https://alx-intranet.hbtn.io/rltoken/wsnVUxEcAzzlCx6ES1qc7g "Selector")
-- [Get and set content](https://alx-intranet.hbtn.io/rltoken/rwtc96sn2_LHToBAd0MIhQ "Get and set content")
-- [Manipulate CSS classes](https://alx-intranet.hbtn.io/rltoken/IcM5kKVzssU0ibdUo-2gKQ "Manipulate CSS classes")
-- [Manipulate DOM elements](https://alx-intranet.hbtn.io/rltoken/ve8UKsZLVw2t27PtWscZfQ "Manipulate DOM elements")
-- [API](https://alx-intranet.hbtn.io/rltoken/vKc7XmiHG7HIh3N0Kl_VQw "API")
-- [Introduction](https://alx-intranet.hbtn.io/rltoken/QiUwuS_9TXE49D5IVL-ocg "Introduction")
-- [GET & POST request](https://alx-intranet.hbtn.io/rltoken/Mbe7uoy0iMAfTVs2Tn4Pzg "GET & POST request")
-- [JQuery Ajax Tutorial #1 - Using AJAX & API's](https://alx-intranet.hbtn.io/rltoken/gMwyXisSLu-kZicmGA0-LQ "JQuery Ajax Tutorial #1 - Using AJAX & API's")
-- [What went wrong? Troubleshooting JavaScript](https://alx-intranet.hbtn.io/rltoken/4eYyJr72PO-cohImk93M3w "What went wrong? Troubleshooting JavaScript")
-- [JQuery](https://alx-intranet.hbtn.io/rltoken/HnjBq6jf84S9S-C15Qi0vw "JQuery")
-- [JQuery API](https://alx-intranet.hbtn.io/rltoken/jvibhq-8VEdQHNUWKTCI7w "JQuery API")
-- [JQuery Ajax](https://alx-intranet.hbtn.io/rltoken/rBZyrXxuRuISDfPBzO9Y7Q "JQuery Ajax")
+- [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript "What is JavaScript?")
+- [Selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/ "Selector")
+- [Get and set content](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/ "Get and set content")
+- [Manipulate CSS classes](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/ "Manipulate CSS classes")
+- [Manipulate DOM elements](https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/ "Manipulate DOM elements")
+- [API](https://oscarotero.com/jquery/ "API")
+- [Introduction](https://jquery-tutorial.net/ajax/introduction/ "Introduction")
+- [GET & POST request](https://jquery-tutorial.net/ajax/the-get-and-post-methods/ "GET & POST request")
+- [JQuery Ajax Tutorial #1 - Using AJAX & API's](https://www.youtube.com/watch?v=fEYx8dQr_cQ "JQuery Ajax Tutorial #1 - Using AJAX & API's")
+- [What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong "What went wrong? Troubleshooting JavaScript")
+- [JQuery](https://jquery.com/ "JQuery")
+- [JQuery API](https://api.jquery.com/ "JQuery API")
+- [JQuery Ajax](https://learn.jquery.com/ajax/ "JQuery Ajax")
 
 Learning Objectives
 -------------------
